@@ -15,3 +15,9 @@ Checkout Keywords: Mengelompokkan seluruh alur pembelian (Add to Cart, mengisi f
 Pengujian Positif & Negatif: Mencakup skenario Login yang berhasil dan alur Checkout penuh yang sukses, serta pengujian alternatif (misalnya, proses login yang gagal).
 
 Best Practices: Penggunaan Test Object yang terpusat di Object Repository dan parameterisasi data (penggunaan variabel username/password) untuk fleksibilitas pengujian.
+
+Cara Menjalankan Proyek Secara Lokal
+1. Clone Repository
+2. Buka di Katalon Studio: Buka aplikasi Katalon Studio, lalu pilih File > Open Project dan arahkan ke folder lokal Anda.
+3. Update WebDriver: Pastikan WebDriver Anda (Chrome/Edge) diperbarui via menu Tools > Update WebDrivers untuk menghindari error sesi.
+4. Eksekusi: Jalankan Test Case dari Test Suite yang tersedia di Test Explorer.
